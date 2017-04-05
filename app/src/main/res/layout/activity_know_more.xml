@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_know_more"
+    android:background="#FFFFFF"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="project.yidun.com.yidun.KnowMoreActivity">
+
+    <LinearLayout
+        android:id="@+id/ll_top"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="35dp">
+        <ImageView
+            android:id="@+id/tv_back"
+            android:layout_width="16dp"
+            android:layout_height="20dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="14dp"
+            android:padding="2dp"
+            android:gravity="center"
+            android:layout_marginTop="2dp"
+            android:src="@mipmap/zuo"
+            />
+        <TextView
+            android:id="@+id/tv_yidun"
+            android:layout_width="90dp"
+            android:layout_height="27dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:textSize="19sp"
+            android:layout_marginLeft="105dp"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:text="邀请记录" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lv_more"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/ll_top"
+        android:scrollbars="none"
+        ></ListView>
+
+</RelativeLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_register"
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    tools:context="project.yidun.com.yidun.RegisterActivity">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="35dp">
+        <ImageView
+            android:id="@+id/tv_back"
+            android:layout_width="16dp"
+            android:layout_height="20dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="14dp"
+            android:padding="2dp"
+            android:gravity="center"
+            android:layout_marginTop="2dp"
+            android:src="@mipmap/zuo"
+            />
+
+        <TextView
+            android:id="@+id/tv_yidun"
+            android:layout_width="90dp"
+            android:layout_height="27dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:textSize="19sp"
+            android:layout_marginLeft="105dp"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:text="收益明细" />
+    </LinearLayout>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="10dp"
+    android:background="#f0f0f0"
+    />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#f0f0f0"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#f0f0f0"
+        />
+    <ListView
+        android:id="@+id/lv_account"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#f0f0f0"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:background="#f0f0f0"
+        android:id="@+id/textView2" />
+
+</LinearLayout>
